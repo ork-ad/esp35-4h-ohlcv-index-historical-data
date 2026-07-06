@@ -1,10 +1,10 @@
 # ESP35 4h OHLCV Index Historical Data — Free Sample
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Dataset rows](https://img.shields.io/badge/full_dataset-1_174_rows-blue)](https://ork.ad/) [![Updated](https://img.shields.io/badge/weekly_update-every_Sunday-green)](https://ork.ad/) [![Full data on ork.ad](https://img.shields.io/badge/download-ork.ad-orange)](https://ork.ad/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Dataset rows](https://img.shields.io/badge/full_dataset-13_370_rows-blue)](https://ork.ad/) [![Updated](https://img.shields.io/badge/weekly_update-every_Sunday-green)](https://ork.ad/) [![Full data on ork.ad](https://img.shields.io/badge/download-ork.ad-orange)](https://ork.ad/)
 
 ### → [**Download the full ESP35 dataset on ork.ad**](https://ork.ad/)
 
-**ESP35 4h OHLCV Stock index historical data** — ultra high-quality 4h OHLCV for **Spain 35 Index**. Global cash and extended index sessions — Asia, Europe and US coverage, not US-hours only. Clean `time, open, high, low, close, volume` CSV for backtesting, algorithmic trading and quantitative research.
+**ESP35 4h OHLCV Stock index historical data** — ultra high-quality 4h OHLCV for **Spain 35**. Global cash and extended index sessions — Asia, Europe and US coverage, not US-hours only. Clean `time, open, high, low, close, volume` CSV for backtesting, algorithmic trading and quantitative research.
 
 ## Table of contents
 
@@ -21,14 +21,14 @@
 
 ## Why this dataset?
 
-- **Ultra high-quality 4h OHLCV** for **Spain 35 Index** (Stock index)
+- **Ultra high-quality 4h OHLCV** for **Spain 35** (Stock index)
 - **Global cash and extended index sessions — Asia, Europe and US coverage, not US-hours only**
 - **Clean CSV schema** — `time, open, high, low, close, volume` (no gaps in formatting)
-- **Free evaluation sample** on GitHub (`4h`) · **13 timeframes** on [ork.ad](https://ork.ad/) · **1,174** `4h` rows in the full archive
+- **Free evaluation sample** on GitHub (`4h`) · **13 timeframes** on [ork.ad](https://ork.ad/) · **13,370** `4h` rows in the full archive
 - Built for **backtesting**, **algorithmic trading** and **quantitative finance** workflows
 - **Weekly refresh** — [ork.ad](https://ork.ad/) every **Sunday**; GitHub `4h` sample updated in sync
 
-> **Sample on GitHub** · `ESP35_4h.csv` (758 rows, `2025-10-03` → `2026-07-02`). **Full archive on [ork.ad](https://ork.ad/)** — **1,174** `4h` rows (~0.08 MB), **13 timeframes** (``1m`, `3m`, `5m`, `15m`, `30m`, `1H`, `2H`, `4H`, `8H`, `12H`, `16H`, `1D`, `1W``), `2025-05-12` → `2026-07-02`.
+> **Sample on GitHub** · `ESP35_4h.csv` (566 rows, `2025-10-03` → `2026-07-03`). **Full archive on [ork.ad](https://ork.ad/)** — **13,370** `4h` rows (~0.67 MB), **13 timeframes** (``1m`, `3m`, `5m`, `15m`, `30m`, `1H`, `2H`, `4H`, `8H`, `12H`, `16H`, `1D`, `1W``), `2008-09-10` → `2026-07-03`.
 
 ## Download sample
 
@@ -42,11 +42,11 @@ Interactive chart & stats: **[https://ork-ad.github.io/esp35-4h-ohlcv-index-hist
 
 | | **Sample (this repo)** | **Full dataset ([ork.ad](https://ork.ad/))** |
 |---|--:|---|
-| Instrument | Spain 35 Index · Stock index | Spain 35 Index · Stock index |
+| Instrument | Spain 35 · Stock index | Spain 35 · Stock index |
 | Timeframes | `4h` (sample) | **13** — `1m`, `3m`, `5m`, `15m`, `30m`, `1H`, `2H`, `4H`, `8H`, `12H`, `16H`, `1D`, `1W` |
-| 4h rows | 758 | **1,174** |
-| Size | 0.05 MB | ~0.08 MB |
-| Period | `2025-10-03` → `2026-07-02` | `2025-05-12` → `2026-07-02` |
+| 4h rows | 566 | **13,370** |
+| Size | 0.03 MB | ~0.67 MB |
+| Period | `2025-10-03` → `2026-07-03` | `2008-09-10` → `2026-07-03` |
 | File | `ESP35_4h.csv` | ZIP on [ork.ad](https://ork.ad/) |
 | Updates | Weekly (Sunday) — GitHub sample | Weekly (Sunday) — all timeframes |
 
@@ -73,21 +73,21 @@ First and latest rows from the GitHub sample **`ESP35_4h.csv`**:
 
 | time | open | high | low | close | volume |
 | --- | --- | --- | --- | --- | --- |
-| 2025-10-03T04:00:00Z | 15509.995 | 15670.377 | 15509.995 | 15639.366 | 2551.0 |
-| 2025-10-03T08:00:00Z | 15639.366 | 15654.867 | 15571.366 | 15575.876 | 3593.0 |
-| 2025-10-03T12:00:00Z | 15575.876 | 15638.356 | 15563.356 | 15582.376 | 3730.0 |
-| 2025-10-03T16:00:00Z | 15582.376 | 15591.376 | 15559.356 | 15564.356 | 331.0 |
-| 2025-10-06T04:00:00Z | 15564.356 | 15627.286 | 15488.775 | 15509.785 | 4070.0 |
+| 2025-10-03T14:00:00Z | 15618.61 | 15619.12 | 15560.6 | 15565.6 | 2380 |
+| 2025-10-06T06:00:00Z | 15565.6 | 15628.53 | 15490.02 | 15600.04 | 8168 |
+| 2025-10-06T10:00:00Z | 15600.04 | 15632.55 | 15573.53 | 15580.54 | 4401 |
+| 2025-10-06T14:00:00Z | 15580.54 | 15599.04 | 15543.02 | 15545.53 | 2868 |
+| 2025-10-07T06:00:00Z | 15545.53 | 15601.91 | 15484.4 | 15582.39 | 5435 |
 
 **Last rows**
 
 | time | open | high | low | close | volume |
 | --- | --- | --- | --- | --- | --- |
 | time | open | high | low | close | volume |
-| 2026-07-02T04:00:00Z | 19424.21 | 19522.05 | 19398.03 | 19504.53 | 2341.0 |
-| 2026-07-02T08:00:00Z | 19504.53 | 19628.54 | 19498.05 | 19624.55 | 4023.0 |
-| 2026-07-02T12:00:00Z | 19624.55 | 19808.53 | 19619.54 | 19653.05 | 9036.0 |
-| 2026-07-02T16:00:00Z | 19653.05 | 19691.05 | 19616.05 | 19625.55 | 1155.0 |
+| 2026-07-02T10:00:00Z | 19608.51 | 19810.51 | 19576.51 | 19780.01 | 5296 |
+| 2026-07-02T14:00:00Z | 19780.01 | 19791.03 | 19619.99 | 19627.51 | 6198 |
+| 2026-07-03T06:00:00Z | 19627.51 | 19805.47 | 19627.51 | 19784.46 | 5189 |
+| 2026-07-03T10:00:00Z | 19784.46 | 19883.98 | 19774.45 | 19878.47 | 2873 |
 
 ## Schema
 
@@ -145,9 +145,9 @@ print(pf.stats())
 
 ## Download full data
 
-The complete **ESP35** archive on **[ork.ad](https://ork.ad/)** includes **13 OHLCV timeframes** (`1m`, `3m`, `5m`, `15m`, `30m`, `1H`, `2H`, `4H`, `8H`, `12H`, `16H`, `1D`, `1W`) — **1,174** rows at `4h`, plus all other timeframes in the same ZIP.
+The complete **ESP35** archive on **[ork.ad](https://ork.ad/)** includes **13 OHLCV timeframes** (`1m`, `3m`, `5m`, `15m`, `30m`, `1H`, `2H`, `4H`, `8H`, `12H`, `16H`, `1D`, `1W`) — **13,370** rows at `4h`, plus all other timeframes in the same ZIP.
 
 **[→ Get the full ESP35 dataset on ork.ad](https://ork.ad/)**
 
 ---
-*GetData · ESP35 4h OHLCV sample on GitHub · Full historical data on [ork.ad](https://ork.ad/) · 2026-07-04 UTC*
+*GetData · ESP35 4h OHLCV sample on GitHub · Full historical data on [ork.ad](https://ork.ad/) · 2026-07-06 UTC*
